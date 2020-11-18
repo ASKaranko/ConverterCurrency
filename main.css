@@ -1,0 +1,84 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Sansita Swashed', Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+
+h1 {
+  font-family: 'Sansita Swashed', Arial, sans-serif !important;
+}
+
+div {
+  border: tomato 2px double;
+  width: 800px;
+  padding: 20px;
+}
+
+.converter1 {
+  margin-top: 20px;
+}
+
+input {
+  display: inline-block;
+  margin: 10px;
+}
+
+div > label {
+  margin-left: 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: tomato;
+}
+
+/* .cat{
+  width: 150px;
+  height: auto;
+  display: block;
+  position: absolute;
+  left: 0px;
+}
+
+.add-button, .reset {
+  width: 100px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  color: black;
+  background-color: rgb(16, 165, 54);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.reset {
+  top: 50%;
+  background-color: rgb(163, 13, 63);
+}
+
+.output {
+  border: 1px solid #000;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+} */
